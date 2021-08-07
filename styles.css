@@ -837,7 +837,7 @@ form .message textarea{
   font-family: 'Poppins', sans-serif;
   border-radius: 5px;
   border: 1px solid rgb(51, 51, 51);
-  background: #e5ecfb;
+  background: #ffffff;
 }
 .field input::placeholder,
 .message textarea::placeholder{
