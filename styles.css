@@ -7,8 +7,8 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  outline: none; border: none;
-  text-transform:capitalize;
+  outline: none; 
+  border: none;
   transition: all .2s linear;
 }
 html{
@@ -512,7 +512,7 @@ header .navbar ul li a:hover{
   background: #e03d0b;
 }
 .skills .container .col .bar .css:before{
-  width: 70%;
+  width: 80%;
   background: #2962ff;
 }
 .skills .container .col .bar .javascript:before{
@@ -520,19 +520,19 @@ header .navbar ul li a:hover{
   background: #ffd900;
 }
 .skills .container .col .bar .react:before{
-  width: 60%;
+  width: 70%;
   background: #2962ff;
 }
 .skills .container .col .bar .mongodb:before{
-  width: 80%;
+  width: 70%;
   background: #249c3e;
 }
 .skills .container .col .bar .tailwindcss:before{
-  width: 80%;
+  width: 75%;
   background: #2962ff;
 }
 .skills .container .col .bar .aws:before{
-  width: 85%;
+  width: 65%;
   background: #c97911;
 }
 .skills .container .col .bar .java:before{
@@ -540,11 +540,11 @@ header .navbar ul li a:hover{
   background: #ce0505;
 }
 .skills .container .col .bar .nodejs:before{
-  width: 90%;
+  width: 75%;
   background: #075f13;
 }
 .skills .container .col .bar .vcs:before{
-  width: 88%;
+  width: 85%;
   background: #f14e32;
 }
 .skills .container .col .bar .bootstrap:before{
