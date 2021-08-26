@@ -33,7 +33,7 @@ srtop.reveal('.about .content .resumebtn',{delay: 300});
 
 //Skills
 srtop.reveal('.skills .container',{interval: 200}); 
-srtop.reveal('.skills .container .bar',{delay: 400}); 
+srtop.reveal('.skills .container .row',{delay: 200}); 
 
 //Education
 srtop.reveal('.education .box',{interval: 200}); 

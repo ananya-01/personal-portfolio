@@ -451,133 +451,74 @@ header .navbar ul li a:hover{
   padding: 2rem;
   margin: 1rem;
 }
-.skills .container .row{
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  flex-wrap: wrap;
-}
 .skills .container .row .col{
   display: grid;
 }
 .skills .container .col{
   position: relative;
-  width: 90%;
+  width: 22%;
   color: #fff;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
 }
-.skills .container .col .bar{
-  margin-bottom: 15px;
-  padding: 10px;
-  border-radius: 1rem;
-  box-shadow: 0 4px 10px rgba(0,0,0,.2);
-  background: rgba( 0, 0, 22, 0.9);
-  transition: .2s;
+.skills .container span{
+  color: #000000;
+  font-family: 'Nunito', sans-serif;
+  font-size: 2.5rem;
+  text-align: center;
+  text-decoration: solid 100%;
 }
-.skills .container .col .bar:hover{
-  transform: translateX(12px);
-  box-shadow: 0 5px 8px rgba(0, 2, 68, 0.4);
+.skills .container .row{
+  display: grid ;
+  grid-template-columns: repeat(5,3fr);
+  gap: 40px;
+  margin-bottom: 20px;
+  padding-left: 55px;
+  
 }
-.skills .container .col .bar .info{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 5px;
+.skills .col img.responsive-img {
+  margin: 0 auto;
+  max-height: 100px;
+  padding-bottom: 10px;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
 }
-.skills .container .col .bar .info i{
-  font-size: 2rem;
-}
-.skills .container .col .bar .info span{
-  font-size: 1.8rem;
-  font-weight: 500;
-  font-family: 'Poppins';
-  margin-left: .5rem;
-}
-.skills .container .col .bar .line{
-  position: relative;
-  width: 100%;
-  height: 10px;
-  background: rgb(212, 211, 211);
-  border-radius: 6px;
-}
-.skills .container .col .bar .line:before{
-  content: '';
-  position: absolute;
-  height: 100%;
-  top: 0;
-  left: 0;
-  border-radius: 4px;
-}
-.skills .container .col .bar .html:before{
-  width: 90%;
-  background: #e03d0b;
-}
-.skills .container .col .bar .css:before{
-  width: 80%;
-  background: #2962ff;
-}
-.skills .container .col .bar .javascript:before{
-  width: 70%;
-  background: #ffd900;
-}
-.skills .container .col .bar .react:before{
-  width: 70%;
-  background: #2962ff;
-}
-.skills .container .col .bar .mongodb:before{
-  width: 70%;
-  background: #249c3e;
-}
-.skills .container .col .bar .tailwindcss:before{
-  width: 75%;
-  background: #2962ff;
-}
-.skills .container .col .bar .aws:before{
-  width: 65%;
-  background: #c97911;
-}
-.skills .container .col .bar .java:before{
-  width: 60%;
-  background: #ce0505;
-}
-.skills .container .col .bar .nodejs:before{
-  width: 75%;
-  background: #075f13;
-}
-.skills .container .col .bar .vcs:before{
-  width: 85%;
-  background: #f14e32;
-}
-.skills .container .col .bar .bootstrap:before{
-  width: 80%;
-  background: #7512af;
-}
-.skills .container .col .bar .c:before{
-  width: 80%;
-  background: #48a0c4;
+.skills .col img.responsive-img:hover{
+  transform: scale(1.03);
+  box-shadow: 1rem .5rem 1.2rem rgba(0, 0, 0, .3);
+  cursor: pointer;
 }
 
 
 /* Skills media query*/
-@media screen and (max-width: 600px){
+@media screen and (max-width: 640px){
   .skills .container{
-    padding: 0;
-    margin: 0;
+    padding: 20px;
+    margin-top: 30px;
   }
   .skills .container .row{
-    grid-template-columns: repeat(1,1fr);
-    margin: 1rem;
-    padding-top: 2rem;
+    display: grid ;
+    grid-template-columns: repeat(3,4fr);
+    gap: 3.5px;
+    margin-bottom: 20px;
+    padding-left: 20px;
   }
   .skills .container .col{
     margin-top: 5px;
     width: 100%;
   }
-  .skills .container .col .bar{
-    margin-bottom: 10px;
-    padding: 10px;
+  .skills .col img.responsive-img {
+    max-height: 50px;
   }
-  .skills .container .col .bar .line{
-    height: .8rem;
+  .skills .container span{
+    font-size: 1.2rem;
+  }
+  
+}
+@media screen and (max-width: 1024px){
+  .skills .container .row{
+    display: grid ;
+    grid-template-columns: repeat(2,1fr);
   }
 }
 
